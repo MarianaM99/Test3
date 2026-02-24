@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 1253904199851021209}
   - component: {fileID: 5394019982401713831}
   m_Layer: 0
-  m_Name: 'Collider-front-right '
+  m_Name: Collider-front-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,7 +136,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3105384504981001736}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.83780986, y: 0.189, z: 1.8754387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -277,10 +277,10 @@ MonoBehaviour:
   - {fileID: 139633660097820330}
   - {fileID: 5394019982401713831}
   _wheelTransform:
-  - {fileID: 5923316384321870391}
-  - {fileID: 6746909106338543327}
   - {fileID: 1236888635171872448}
   - {fileID: 4113660772109172513}
+  - {fileID: 5923316384321870391}
+  - {fileID: 6746909106338543327}
   speed: 0
 --- !u!1 &3649003630142484611
 GameObject:
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 2016998364894222512}
   - component: {fileID: 2540958032280165362}
   m_Layer: 0
-  m_Name: 'Collider-front-left '
+  m_Name: Collider-front-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 7296266636018188040}
   - component: {fileID: 139633660097820330}
   m_Layer: 0
-  m_Name: Collider-back-right
+  m_Name: Collider-back-left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 4817346465103675247}
   - component: {fileID: 4745596945571614828}
   m_Layer: 0
-  m_Name: Collider-back-left
+  m_Name: Collider-back-right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
