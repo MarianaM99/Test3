@@ -14,6 +14,9 @@ public class CarSO : ScriptableObject
     public float speed;
     public float brake; // fuerza//
     public float angle;
+    public string carName;
+    public Sprite carImage;
+    public GameObject carPrefab;
 
 
 }
